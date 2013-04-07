@@ -1,0 +1,197 @@
+html {
+    background-color: rgb(231, 70, 52);
+    font-family: 'Helvetica';
+    font-size: 40px;
+}
+
+.button p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.button {
+    border: solid 8px black;
+    min-width: 585px;
+    max-width: 585px;
+    margin: 15px auto;
+    min-height: 0.5em;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 100px;
+    background-color: rgb(231, 70, 52);
+    color: white;
+    font-family: 'Impact', 'Lucida Console', 'Marker Felt', 'Helvetica';
+    clear: both;
+}
+
+.button a {
+    display: block;
+}
+
+.button:hover {
+    background-color: #C0C0C0;
+    text-shadow: 2px 2px 2px #000;
+}
+
+body {
+    min-width: 300px;
+    min-height: 900px;
+    margin: 100px 100px 100px 100px;
+    border: solid 8px black;
+    border-radius: 250px;
+    background: white;
+    padding: 80px;
+}
+
+.logo {
+
+    width: 50%;
+    margin: 10px auto;
+}
+
+.logo img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 2px 2px 2px #000;
+}
+
+p {
+    clear: both;
+}
+
+p.one {
+    margin-top: 80px
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 80px;
+    text-align: center;
+    clear: both;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 60px;
+    text-align: center;
+    clear: both;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+.back_button {
+    float: left;
+    margin-left: 5%;
+    margin-top: -5%;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.back_button:hover {
+    background-color: #C0C0C0;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.home_button {
+    margin: 0 auto 20px auto;
+    bottom: 5%;
+    min-width: 100px;
+    max-width: 100px;
+    margin-top: 25px;
+}
+
+.hiddenselector {
+    display: none;
+}
+
+.styled-select select {
+    background-color: #fdd;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+    height: 34px;
+}
+
+.input {
+    min-width: 585px;
+    max-width: 585px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 100px;
+    clear: both;
+    background: #FFDDDD;
+    border: solid 8px black;
+    margin: 15px auto;
+    min-height: 50px;
+    font-size: 22px;
+    border-radius: 100px;
+    font-family: 'Helvetica';
+    text-align: left;
+    padding: 0.5em;
+    color: black;
+    font-weight: bold;
+
+}
+
+.notes {
+    padding: 0.5em 1.5em 1em 1.5em;
+}
+
+.submit {
+    background: rgb(231, 70, 52);
+    border: solid 8px black;
+    min-width: 300px;
+    max-width: 350px;
+    margin: 15px auto;
+    min-height: 50px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 100px;
+    font-family: 'Impact', 'Lucida Console', 'Marker Felt', 'Helvetica';
+    clear: both;
+}
+
+.centred {
+    text-align: center;
+}
+
+.comment {
+    font-family: 'Helvetica';
+    font-size: 20px;
+}
+
+.graph {
+    margin: auto;
+    border-radius: 100px;
+    border: solid 8px black;
+}
+
+.map {
+    margin: auto;
+}
+
+.web:hover {
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 0;
+}
+
+.echo {
+    clear: both;
+    border-bottom: 5px;
+}
+
+iframe {
+    border: none;
+}

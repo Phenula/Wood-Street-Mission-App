@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Social Network</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="apple-touch-icon" href="woodst-logo-57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="woodst-logo-72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="woodst-logo-144.png"/>
+</head>
+
+<body>
+<div class="button back_button">
+    <p><a href="social_network.html">Back</a></p>
+</div>
+<h1>Our Twitter Feed</h1>
+
+<div class="centred">
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <div>
+        <a href="https://twitter.com/WoodStMission" class="twitter-follow-button" data-show-count="false"
+           data-size="large">Follow @WoodStMission</a>
+
+        <div class="centred">
+            <script>!function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");</script>
+        </div>
+        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+            new TWTR.Widget({
+                version:2,
+                type:'profile',
+                rpp:30,
+                interval:30000,
+                width:'auto',
+                height:900,
+                theme:{
+                    shell:{
+                        background:'#eb8175',
+                        color:'#ffffff'
+                    },
+                    tweets:{
+                        background:'#eb4a38',
+                        color:'#ffffff',
+                        links:'#bfadac'
+                    }
+                },
+                features:{
+                    scrollbar:true,
+                    loop:false,
+                    live:true,
+                    behavior:'all'
+                }
+            }).render().setUser('@WoodStMission').start();
+        </script>
+    </div>
+ </div>
+        <div class="home_button button">
+            <a href="index.html"><img src="homehouse.gif" title="Go Back to Home Page"/></a>
+        </div>
+        </body>
+
+</html>
